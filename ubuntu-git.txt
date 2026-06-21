@@ -1,0 +1,6 @@
+# Ubuntu 安装
+sudo apt install gh
+gh auth login
+
+# 然后一行命令创建仓库并推送
+gh repo create 仓库名 --public --source=. --remote=origin --push
